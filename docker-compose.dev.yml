@@ -30,6 +30,21 @@ services:
     volumes:
       - mongo-data:/data/db
       - mongo-configdb:/data/configdb
+  frontend:
+    command: ./node_modules/.bin/webpack
+    build: ./static
+    image: us.gcr.io/biohacks-194200/biohacks:ab8e9935850a3a11b7bebfcb8913f1c6afc970bc
+    volumes:
+      - frontend-static:/app
+  caddy:
+    image: abiosoft/caddy
+    volumes:
+      - ./Caddyfile:/etc/Caddyfile
+      - .caddy:/root/.caddy
+      - frontend-static:/srv
+    ports:
+      - 80:80
+      - 443:443
 
   frontend:
     build:
@@ -53,4 +68,6 @@ volumes:
   mongo-data:
     driver: local
   mongo-configdb:
+    driver: local
+  frontend-static:
     driver: local

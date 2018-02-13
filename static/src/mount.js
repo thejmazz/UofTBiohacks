@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import { createStore, combineReducers, applyMiddleware } from 'redux'
 import { Provider } from 'react-redux'
 import { canUseDOM } from 'fbjs/lib/ExecutionEnvironment'
@@ -28,9 +27,8 @@ export default function mount(Connected, reducers) {
 
   if (canUseDOM) {
     injectTapEventPlugin()
-
     const container = document.getElementById('app')
-    ReactDOM.render(component, container)
+    render(component, container)
   } else {
     // if proper serverside render, headers['user-agent']
     GLOBAL.navigator = {userAgent: 'X'}

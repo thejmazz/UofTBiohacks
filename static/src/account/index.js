@@ -55,6 +55,7 @@ class Account extends Component {
           <About userModel={account.userModel}/>
         </div>
       } else if (!account.authorizing && !account.authorized){
+        delete sessionStorage.jwt 
         window.location.assign("/login")
       }
     } else {

@@ -34,7 +34,7 @@ router.post('/login', function*(){
     }
   }
   let token = jwt.sign({
-          admin: "igem@g.skule.ca",
+          admin: "admin",
           password: this.request.body.password
         }, config.SECRET, {
           expiresInMinutes: 60 * 5

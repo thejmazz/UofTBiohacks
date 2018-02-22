@@ -12,12 +12,12 @@ function* authenticateUser(next){
     try {
         let token = this.request.header.authorization.split(" ")[1];
         console.log(token)
+
         let decoded = jwt.verify(token, config.SECRET);
-        if(decoded.admin === "igem@g.skule.ca" && decoded.password === "W7Gs67ep6s57DDpfqC4EQt"){
+        if(decoded.admin === "admin" && decoded.password === process.env.ADMIN_PASS){
           yield next
         }else{
           this.userModel = decoded.userModel;
-
           //re-populate
           this.userModel = yield User.findById(this.userModel._id)
           yield next

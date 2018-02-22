@@ -3,8 +3,8 @@ version: '2.3'
 services:
   api:
     build: ./server
-    # for prod, use node over nodemom
-    command: node ./src/server.js
+    # for prod, use node over nodemon
+    command: nodemon ./src/server.js
     # for prod, no volume mounting source code
     volumes:
       - ./server/src:/home/node/src

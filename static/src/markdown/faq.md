@@ -1,15 +1,22 @@
 ### Where, when, how?
 
 UofT BioHacks 2018 will take place on March 17th-18th, 2018. It will be a two day
-event hosted in University College. Applications will be accepted starting February 16th 2018!
-
-### What is the theme of UofT BioHacks 2018?
-
-Rethinking Genome Annotation.
+event hosted in University College. Applications are now open!
 
 ### Will this event run overnight?
 
-Yes! We want to have as much hacking time as possible so prepare to stay overnight!
+Yes!
+
+### Will there be food?
+
+Yes! Full meals, snacks and plenty of coffee will be provided!!
+
+email us at bcbbiohacks2018@gmail.com if you have any dietary restrictions
+
+### Are there any prizes awarded?
+
+Yes! Prizes will be awarded for the different challanges based on submissions
+and presentations so put your best foot forward!!
 
 ### Does registration guarantee a space at UofT BioHacks 2018?
 
@@ -25,10 +32,8 @@ let you know if something opens up!
 We do not expect an advanced bioinformatics background. However, this hackathon
 is not for first time coders. Teams are encouraged to have members with
 different backgrounds who work together. Additionally, there will be workshops
-provided to improve your bioinformatics skills. To gauge your bioinformatics
-comfort, try a few problems at
-[Rosalind](http://rosalind.info/problems/locations/). The "Bioinformatics
-Stronghold" should not be out of reach for you.
+provided to improve your bioinformatics skills.  If you lack coding experience make sure
+you've got team members who are proficient coders.
 
 ### How do I form a team?
 
@@ -42,7 +47,7 @@ Note: You cannot send an invitation to a friend who is already on a team.
 
 ### I don’t have a team, should I still register?
 
-Definitely! We will help you find your team members.
+Definitely! We will help you find your team members the monring of.
 
 ### How many members per team?
 
@@ -52,10 +57,6 @@ Reccomended team size is 3-6 members
 
 A laptop, charger, extension cords and power bars are always helpful, whatever you require for overnight and yourself!
 
-### Will there be hardware (medical devices or gadgets) provided?
-
-Nope! We will not provide any hardware. 
-
 ### Is there any preparation I can do to before?
 
 1) Read up! Google around or check out some of our provided links.  Wouldn't want to waste precious hacking time doing background readings!! Get that done before you show up!
@@ -63,15 +64,6 @@ Nope! We will not provide any hardware.
 2) Brainstorm ideas with your team!
 
 3) Brush up on your coding skills
-
-### Will there be food?
-
-Yes, refreshments and food will be provided.
-
-### Are there any prizes awarded?
-
-Yes! Prizes will be awarded for the different challanges based on submissions
-and presentations so put your best foot forward!!
 
 ### Are there language constraints?
 

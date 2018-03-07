@@ -96,8 +96,10 @@ export default [
   },
   {
     'time': '4:00 p.m.',
-    'title': 'CAGEF Workshop',
-    'icon': 'fa fa-dna',
+    'title': 'CAGEF Workshop', 
+    // TODO update font awesome
+    // 'icon': 'fa fa-dna',
+    'icon': 'fa fa-wrench',
     'content':
     `
       <p>

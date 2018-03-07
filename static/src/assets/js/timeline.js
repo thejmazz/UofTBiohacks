@@ -56,16 +56,16 @@ export default [
       </p>
     `
   },
-   {
+  {
     'time': '1:00 p.m.',
     'title': 'Guest Speaker: Prof. Nicholas Provart',
-    'icon': 'fas fa-microphone',
+    'icon': 'fa fa-microphone',
     'content':
     `
-      <h1>
+      <h3>
         SS2135
         Raising the BAR for Visual Analytics: Building Tools for Hypothesis Generation with Open Big Data
-      </h1>
+      </h3>
       <p>
         Nicholas Provart is a full professor of Plant Cyberinfrastructure and Systems Biology in
         the Department of Cell &amp; Systems Biology at the University of Toronto. Currently his
@@ -86,7 +86,7 @@ export default [
   {
     'time': '2:00 p.m.',
     'title': 'Guest Speaker: Amit Deshlawar ',
-    'icon': 'fas fa-microphone',
+    'icon': 'fa fa-microphone',
     'content':
     `
       <p>
@@ -97,7 +97,7 @@ export default [
   {
     'time': '4:00 p.m.',
     'title': 'CAGEF Workshop',
-    'icon': 'fas fa-dna',
+    'icon': 'fa fa-dna',
     'content':
     `
       <p>

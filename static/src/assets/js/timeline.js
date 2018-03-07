@@ -8,7 +8,7 @@ export default [
     `
       <p>
         <i>March 17</i><br />
-        University College (UC), 15 King's College Cir
+        Sidney Smith Lobby (100 St. George Street Toronto Ontario)
       </p>
     `
   },
@@ -16,10 +16,10 @@ export default [
     'time': '9:00 a.m.',
     'title': 'Breakfast',
     'icon': 'fa fa-coffee',
-    'content':
+    'content': 
     `
       <p>
-        University College
+        Sidney Smith (SS) If you haven't got a team or are looking for new members to add come find them over breakfast!
       </p>
     `
   },
@@ -30,29 +30,18 @@ export default [
     'content':
     `
       <p>
-        UC140
+        SS2135
       </p>
     `
   },
   {
-    'time': '10:00 a.m.',
-    'title': 'Opening Keynote Speech',
-    'icon': 'fa fa-key',
-    'content':
-    `
-      <p>
-        UC140
-      </p>
-    `
-  },
-  {
-    'time': '11:00 a.m.',
+    'time': '10:30 a.m.',
     'title': 'Hacking Begins!',
     'icon': 'fa fa-code',
     'content':
     `
       <p>
-        Get comfy in any of the following rooms:  UC 44/51/53/55/57/63. Mentors will be circulating to answer questions!
+        Get comfy and Start Hacking! Mentors will be circulating to answer questions!
       </p>
     `
   },
@@ -63,18 +52,56 @@ export default [
     'content':
     `
       <p>
-        University College
+        Sidney Smith
+      </p>
+    `
+  },
+   {
+    'time': '1:00 p.m.',
+    'title': 'Guest Speaker: Prof. Nicholas Provart',
+    'icon': 'fas fa-microphone',
+    'content':
+    `
+      <h1>
+        SS2135
+        Raising the BAR for Visual Analytics: Building Tools for Hypothesis Generation with Open Big Data
+      </h1>
+      <p>
+        Nicholas Provart is a full professor of Plant Cyberinfrastructure and Systems Biology in
+        the Department of Cell &amp; Systems Biology at the University of Toronto. Currently his
+        Bio-Analytic Resource (BAR) at bar.utoronto.ca, comprising tools for coexpression
+        analysis of publicly-available gene expression data, cis-element prediction, identifying
+        molecular markers, generating “electronic fluorescent pictographic” (eFP) representations 
+        of gene expression patterns, and exploring protein-protein interactions in Arabidopsis and
+        other plants, is used approximately 60,000 times a month by researchers worldwide. He is
+        one of the founding members of the International Arabidopsis Informatics Consortium, is
+        president of the Multinational Arabidopsis Steering Committee, and is teaching two
+        MOOCs on Bioinformatic Methods on Coursera.org.
+      </p>
+      <div class="headshot-wrapper">
+        <img class="headshot" src="/img/Provart_Nov2015_585x585px.png"/>
+      </div>
+    `
+  },
+  {
+    'time': '2:00 p.m.',
+    'title': 'Guest Speaker: Amit Deshlawar ',
+    'icon': 'fas fa-microphone',
+    'content':
+    `
+      <p>
+        SS2135
       </p>
     `
   },
   {
-    'time': '3:00 p.m.',
-    'title': 'Workshops',
-    'icon': 'fa fa-cog',
+    'time': '4:00 p.m.',
+    'title': 'CAGEF Workshop',
+    'icon': 'fas fa-dna',
     'content':
     `
       <p>
-        UC140
+        SS2135
       </p>
     `
   },
@@ -85,7 +112,7 @@ export default [
     'content':
     `
       <p>
-        University College
+        Sidney Smith
       </p>
     `
   },
@@ -98,13 +125,13 @@ export default [
     `
       <p>
         <i>March 18</i><br/>
-        University College
+        Sidney Smith
       </p>
     `
   },
   {
     'time': '9:00 a.m.',
-    'title': 'Presentation Sign-Up',
+    'title': 'Submissions due and Presentation Sign-Up',
     'icon': 'fa fa-pencil-square-o',
     'content':
     `
@@ -120,7 +147,7 @@ export default [
     'content':
     `
       <p>
-        UC140
+        SS2135
       </p>
     `
   },
@@ -131,7 +158,7 @@ export default [
     'content':
     `
       <p>
-        University College
+        Sidney Smith
       </p>
     `
   },
@@ -142,7 +169,7 @@ export default [
     'content':
     `
       <p>
-        UC140
+        Sidney Smith
       </p>
     `
   }

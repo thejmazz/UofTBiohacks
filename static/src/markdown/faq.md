@@ -1,7 +1,7 @@
 ### Where, when, how?
 
 UofT BioHacks 2018 will take place on March 17th-18th, 2018. It will be a two day
-event hosted in University College. Applications are now open!
+event hosted in Sidney Smith. Applications are now open!
 
 ### Will this event run overnight?
 
@@ -9,14 +9,14 @@ Yes!
 
 ### Will there be food?
 
-Yes! Full meals, snacks and plenty of coffee will be provided!!
+Yes! Full meals, snacks and plenty of coffee will be provided!
 
-email us at bcbbiohacks2018@gmail.com if you have any dietary restrictions
+Email us at bcbbiohacks2018@gmail.com if you have any dietary restrictions
 
 ### Are there any prizes awarded?
 
-Yes! Prizes will be awarded for the different challanges based on submissions
-and presentations so put your best foot forward!!
+Yes! Prizes will be awarded for the different challenges based on submissions
+and presentations so put your best foot forward!
 
 ### Does registration guarantee a space at UofT BioHacks 2018?
 
@@ -47,7 +47,7 @@ Note: You cannot send an invitation to a friend who is already on a team.
 
 ### I don’t have a team, should I still register?
 
-Definitely! We will help you find your team members the monring of.
+Definitely! We will help you find your team members the morning of.
 
 ### How many members per team?
 

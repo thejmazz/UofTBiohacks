@@ -14,6 +14,15 @@ docker-compose -f docker-compose.prod.yml up -d caddy
 docker cp <folder>_frontend_1:/home/node/dist ./thedist
 ```
 
+Redeploy frontend:
+
+```bash
+git pull
+docker-compose -f docker-compose.prod.yml build frontend
+docker-compose -f dockerc-compose.prod.yml up frontend
+# docker exec uoftbiohacks_caddy_1 ls -lh before/after to verify (dates on files should change)
+```
+
 ## Getting Started
 
 ```bash

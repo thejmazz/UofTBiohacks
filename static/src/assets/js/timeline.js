@@ -108,7 +108,7 @@ export default [
         Engineering and Psychology.
       </p>
       <div class="headshot-wrapper">
-        <img class="headshot" src="/img/AmitDeswarHeadshot.jpg"/>
+        <img class="headshot" src="/img/AmitDeswarHeadshot.JPG"/>
       </div>
     `
   },
@@ -148,9 +148,7 @@ export default [
         via LC-MS/MS. CAGEF has genomics expertise in the analysis of non-standard species, systems, and environments, with
         particular experience in microbial, plant, and environmental genomics and metagenomics.
       </p>
-      <div class="headshot-wrapper">
-        <img class="headshot" src="/img/CAGEFLogo.png"/>
-      </div>
+      <img class="headshot" src="/img/CAGEFLogo.png"/>
     `
   },
   {

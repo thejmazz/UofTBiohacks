@@ -119,7 +119,7 @@ class Index extends Component {
                     <a target="_blank" href="https://awakechocolate.ca/"><img style={{width: '50%', paddingTop: '20px'}} src="/img/awake.png" /></a>
 
                     <p style={{paddingTop: '10px'}}>
-                      If you are interested in becoming a sponsor, check out our <a href="/BCB-biohacks-2018-sponsor-package.pdf">sponshorship package</a>.
+                      If you are interested in becoming a sponsor, check out our <a href="/BCB-biohacks-2018-sponsor-package.pdf">sponsorship package</a>.
                     </p>
                   </div>
                 </div>

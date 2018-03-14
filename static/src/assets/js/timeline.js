@@ -8,7 +8,7 @@ export default [
     `
       <p>
         <i>March 17</i><br />
-        Sidney Smith Lobby (100 St. George Street Toronto Ontario)
+        Sidney Smith Room 1084 (100 St. George Street Toronto Ontario)
       </p>
     `
   },

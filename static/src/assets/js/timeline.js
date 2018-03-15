@@ -233,12 +233,12 @@ export default [
   },
   {
     'time': '12:30 p.m.',
-    'title': 'Closing Ceremony',
+    'title': 'Closing Ceremony and Prizes',
     'icon': 'fa fa-trophy',
     'content':
     `
       <p>
-        Sidney Smith
+        Sidney Smith 2135
       </p>
     `
   }

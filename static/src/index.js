@@ -42,6 +42,81 @@ class Index extends Component {
           <img id="splashLogo" className="aboveCanvas" src="/img/homepageLogo2018.png" />
           <i id="downArrow" className="fa fa-arrow-down"></i>
         </div>
+        <div id="results" className="container">
+          <h2> Results </h2>
+          <table>
+            <tr>
+              <th>Place</th>
+              <th>Team Name</th>
+              <th>Project Name</th>
+              <th>Members</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>GenomeLabs</td>
+              <td><a href="https://github.com/dennlinger/GenomeLabs">Gene Body Atlas</a></td>
+              <td>Dennis Aumiller, Ray Gao, Musa Talluzi</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>ProteoWizards</td>
+              <td>
+                <a href="https://github.com/ProteoWizards/UniqViz">Human Uniqueness Map</a> (<a href="slides/proteowizards.pdf">slides</a>)
+              </td>
+              <td>Max Frank, Aleksei Shkurin, Ron Blutrich, Paul Frank, Julian Mazzitelli, Hailen Xu, Charlotte Nguyen</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>SadCricket</td>
+              <td>
+                <a href="https://github.com/jyjenny/bcbbiohacks2018/">Hills With A Halo</a> (<a href="slides/sadcricket.png">slides</a>)
+              </td>
+              <td>Jenny Yin, Alana Man, Yuqing Zou, Justin Lee, Ian Shi</td>
+            </tr>
+            <tr>
+              <td>Top 6</td>
+              <td>A TAD Tired</td>
+              <td>
+                <a href="https://github.com/LyMarco/2018-Challenge">TAD Viewer</a> (<a href="slides/tad.pdf">slides</a>)
+              </td>
+              <td>Ashley Wang, Srishti Sehgal, Marco Ly, Frederick Zhang</td>
+            </tr>
+            <tr>
+              <td>Top 6</td>
+              <td>BioCompBaes</td>
+              <td>
+                <a href="https://github.com/kashishverma610/BioHacks2018">Predicting gene functionality based on location</a> (<a href="slides/biocompbaes.pdf">slides</a>)
+              </td>
+              <td>Kashish Verma, Christine Bui, Afifa Saleem, Samia Muqeem</td>
+            </tr>
+            <tr>
+              <td>Top 6</td>
+              <td>Don't Do Shrugs Kids</td>
+              <td>
+                <a href="https://github.com/rkchudha/BioHacks.git">Gene Interaction...and 👉YOU</a> (<a href="slides/dont-do-shrugs-kids.pdf">slides</a>)
+              </td>
+              <td>Hammad K., Xi H., Nada E., Tanith J., Alison L., Ramnik C.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>AAA</td>
+              <td><a href="https://github.com/li-amy/uoftbiohacks2018">Relationship Graph</a></td>
+              <td>Amy Li, Alex Chen</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>pizzasquad</td>
+              <td><a href="https://github.com/ignaspa/concentricgraf">Pizza Graph</a></td>
+              <td>Bruno, <a href="https://github.com/ignaspa">ignaspa</a>, Sid, Ben, John, Santiago</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Hackthonians</td>
+              <td><a href="https://github.com/shiseru/biohacks">BioHacks Project</a></td>
+              <td>Sotaro Hirai, Shisei Naka</td>
+            </tr>
+          </table>
+        </div>
         <div className="registerBlock">
           <div className="container">
             <Row style={{marginBottom: '30px'}}>
@@ -50,12 +125,15 @@ class Index extends Component {
                   <div className="my-panel-body">
                     <h2 style={{textAlign: 'center'}}><i className="fa fa-calendar"></i> March 17-18 2018</h2>
 
-                    <div className="buttonHolder">
-                      <a className="btn btn-primary btn-lg" href="https://goo.gl/forms/V3ujQb3Wt1qNXMYr1">Volunteer</a>
-                      <a className="btn btn-primary btn-lg" href="/BCB-biohacks-2018-sponsor-package.pdf">Sponsor</a>
-                    </div>
+                { null ?
+                  <div className="buttonHolder">
+                  <a className="btn btn-primary btn-lg" href="https://goo.gl/forms/V3ujQb3Wt1qNXMYr1">Volunteer</a>
+                  <a className="btn btn-primary btn-lg" href="/BCB-biohacks-2018-sponsor-package.pdf">Sponsor</a>
                   </div>
-                  <hr />
+                  : undefined
+                }
+                  </div>
+                  { null ? <hr /> : undefined}
                   <div id="intro" dangerouslySetInnerHTML={{__html: about}} />
                   <div style={{textAlign: 'center'}}>
                     <img style={{width: '60%', paddingBottom: '20px'}} src="/img/BCB.png" />

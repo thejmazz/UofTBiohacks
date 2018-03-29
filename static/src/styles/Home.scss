@@ -157,6 +157,34 @@
   background-color: $grey-100;
 }
 
+#results {
+  // font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding-bottom: 30px;
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+#results td, #results th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#results tr:nth-child(even){background-color: #f2f2f2;}
+
+#results th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: $titleLightBlue;
+  color: white;
+}
+
 .registerBlock {
   padding-top: 30px;
   background-color: $titleDarkBlue;

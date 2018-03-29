@@ -11,6 +11,7 @@ COPY --chown=node:node . /home/node
 ENV PATH="$PATH:./node_modules/.bin"
 
 RUN mkdir ./dist
+RUN chown node:node ./dist
 
 CMD /bin/bash -c "echo 'Webpack started...' && webpack -p && webpack --config webpack.node.js && babel-node dist/app.node.js"
 
